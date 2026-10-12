@@ -1,0 +1,2 @@
+George-Exporte (JSON) hier hineinziehen und in der Mappe auf "Import-Ordner einlesen" klicken.
+Eingelesene Dateien werden automatisch nach "erledigt" verschoben.
