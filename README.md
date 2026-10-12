@@ -7,8 +7,8 @@ George-Umsatzexporten (JSON) von Girokonto, Sparkonto, Bausparkonto und Kreditka
 
 | Blatt | Inhalt |
 |---|---|
-| **Übersicht** | Import-Schaltflächen, Kennzahlen für den Auswertungsmonat (Einnahmen, Ausgaben, Saldo, Verfügbar, Nettovermögen, Buchungen ohne Kategorie), Konten mit Kontostand, Ausgaben nach Kategorie |
-| **Buchungen** | Alle importierten Buchungen: Datum, Konto, Empfänger, Verwendungszweck, Betrag, Bezeichnung, Kategorie, Art, Notiz. Editierbar sind Bezeichnung, Kategorie, Art und Notiz |
+| **Übersicht** | Import-Schaltflächen, Kennzahlen für den Auswertungsmonat (Einnahmen, Ausgaben, Saldo, Verfügbar, Nettovermögen, Buchungen ohne Kategorie), Konten mit Kontostand und Monatswechsel je Konto (Kreditkarte: ab dem 28. zählt zum Folgemonat), Ausgaben nach Kategorie |
+| **Buchungen** | Alle importierten Buchungen: Datum, Konto, Empfänger, Verwendungszweck, Betrag, Bezeichnung, Kategorie, Art, Notiz, berechneter Auswertungsmonat. Editierbar sind Bezeichnung, Kategorie, Art und Notiz |
 | **Monatsübersicht** | Einnahmen, Fixkosten, variable Ausgaben und Saldo je Monat des gewählten Jahres, Diagramm, Kategorien × Monate |
 | **Fixkosten** | Geplante Einnahmen und Fixkosten mit Suchbegriff für den Import, Soll (Ø pro Monat), Aufteilung geteilter Abos (Anzahl Personen oder Anteil in %) mit „Mein Anteil“, Ist im Auswertungsmonat, letzte Buchung |
 | **Importregeln** | Suchbegriff → Bezeichnung, Kategorie, Art (erste passende Regel gewinnt) |
