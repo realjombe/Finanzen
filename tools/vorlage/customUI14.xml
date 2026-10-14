@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabFinanzen" label="Finanzen">
+        <group id="grpImport" label="George-Import">
+          <button id="btnImport" label="Dateien importieren" size="large" imageMso="FileOpen" onAction="Ribbon_Import" screentip="George-Export(e) auswählen" supertip="JSON-Exporte aus George auswählen (mehrere Dateien möglich: Giro, Sparkonto, Kreditkarte). Danach läuft die Abo-Erkennung automatisch."/>
+          <button id="btnOrdner" label="Import-Ordner einlesen" size="large" imageMso="RefreshAll" onAction="Ribbon_Ordner" screentip="Alle Dateien im Import-Ordner einlesen" supertip="Liest alle *.json im Ordner „Import“ neben der Mappe und verschiebt sie danach nach „Import\erledigt“."/>
+          <button id="btnOeffnen" label="Import-Ordner öffnen" size="normal" imageMso="FileOpen" onAction="Ribbon_OrdnerOeffnen" screentip="Ordner im Explorer öffnen – Dateien hineinziehen"/>
+        </group>
+        <group id="grpAbos" label="Abos">
+          <button id="btnAbos" label="Abos erkennen" size="large" imageMso="CalculateNow" onAction="Ribbon_Abos" screentip="Abos, Teilzahlungen und Daueraufträge neu erkennen" supertip="Durchsucht alle Buchungen nach gleichen Abbuchern in regelmäßigem Rhythmus und nach gleichen Beträgen jeden Monat. Ergebnis im Blatt „Abos“."/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
